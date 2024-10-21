@@ -16,6 +16,38 @@
 
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
+    #Variables
+    gradevalue = {
+        "A+" : 4.3 ,
+        "A" : 4.0,
+        "A-" : 3.7,
+        "B+" : 3.3,
+        "B" : 3.0,
+        "B-" : 2.7,
+        "C+" : 2.3,
+        "C" : 2.0,
+        "C-" : 1.7,
+        "D+" : 1.3,
+        "D" : 1.0,
+        "D-" : 0.7,
+        "F" : 0.0 }
+    grade= input("Please enter your grade: ")
+    if grade in gradevalue: (4.3, 4.0, 3.7, 3.3, 3.0, 2.7, 2.3, 2.0, 1.7, 1.3, 1.0, 0.7, 0.0)
+        
+    else:
+        return "Invalid"
+    
+    
+    print("This is your grade: %{0}".format (gradevalue))
+
+    #my apologies a little behind still, I wasn't able to get the single print out, instead it prints everything
+
+
+  
+
+    
+
+
 
 
 
